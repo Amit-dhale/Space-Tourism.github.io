@@ -1,0 +1,89 @@
+.container1{
+    background-image: url('./images/background-destination-desktop.jpg');
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.planetimage{
+    margin-top: 49px;
+}
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.heading-2{
+    margin: 20px 5px;
+    font-size: 6rem;
+}
+.cn1{
+    width: 30%;
+}
+.chooseplanet{
+    list-style: none;
+    display: flex;
+    gap: 7%;
+    padding: 0;
+}
+.para2{
+    margin-bottom: 50px;
+}
+.km{
+    margin: 5px 0px;
+    font-size: 2rem;
+}
+.para3{
+    color: rgb(206, 204, 204);
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+.cont1{
+    display: flex;
+    gap: 69px;
+}
+.l1{
+    padding: 7px 0px;
+}
+.section{
+    width: 95%;
+    height: 2px;
+    background-color: white;
+}
+@media screen and (max-width: 480px) {
+    .planetimage{
+        width: 75%;
+    }
+    .cont1 {
+        gap: 26%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .para3{
+        text-align: center;
+    }
+    .cn1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .km{
+        margin: 10px;
+    }
+    .chooseplanet{
+        justify-content: center;
+        width: 100%;
+    }
+    .startline{
+        margin: 20px 0px;
+    }
+    .c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}

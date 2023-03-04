@@ -1,0 +1,79 @@
+.container2{
+    background-image: url('./images/background-crew-desktop.jpg');
+    min-height: 100vh;
+    /* width: 100vw; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+hr{
+    width: 90%;
+}
+.heading-3{
+    font-size: 3rem;
+}
+.mc-3{
+    margin-top: 60px;
+}
+.km-2{
+    color: rgb(212, 212, 212);
+    margin: 25px 0px;
+    font-size: 2rem;
+}
+.c-3{
+    display: flex;
+    justify-content: space-around;
+}
+.crewimg{
+    /* height: 100%; */
+    width: 30%;
+}
+.k-1{
+    width: 50%;
+}
+.radio{
+    background-color: rgb(87, 87, 87);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.act{
+    background-color: white;
+}
+.button-rd{
+    display: flex;
+}
+@media screen and (max-width: 480px) {
+    .container2{
+        background-image: url('./images/moblie/background-crew-mobile.jpg');
+    }
+    .c-3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .k-1 {
+        width: 100%;
+    }
+    .km-2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .heading-3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .button-rd {
+        justify-content: center;
+    }
+    .crewimg{
+        /* height: 100%; */
+        width: 45%;
+    }
+    .h1{
+        width: 100vw;
+        justify-content: center;
+        display: flex;
+    }
+}
